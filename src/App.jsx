@@ -3,8 +3,7 @@ import './App.css'
 import Home from './pages/home/Home'
 import Wishlist from './pages/wishlist/Wishlist'
 import Cart from './pages/cart/Cart'
-import Navbar from './components/navbar/Navbar'
-import Checkout from './pages/checkout/Checkout'
+import Model from './components/model/Model'
 
 function App() {
   return (
@@ -13,8 +12,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/wishlist' element={<Wishlist/>}/>
         <Route path='/cart' element={<Cart/>}/>
-        <Route path='/checkout' element={<Checkout/>}/>
       </Routes>
+      <Model></Model>
     </>
   )
 }
