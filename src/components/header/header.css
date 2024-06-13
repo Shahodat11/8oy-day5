@@ -1,0 +1,14 @@
+ul{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section{
+    border: 2px solid #F7EBE5;
+    outline: #F7EBE5;
+    background-color: #F7EBE5;
+}
+.headers{
+    background-color: #F7EBE5;
+}
